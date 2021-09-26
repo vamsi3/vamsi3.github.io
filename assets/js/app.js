@@ -3,8 +3,8 @@ $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 $(document).ready(function() {
-    var colors = ['#8064a2', '#5bc0de', 'black', '#d9534f', 'green', 'orange'];
-    var buttons = ['btn-outline-dark', 'btn-outline-info', 'btn-outline-dark', 'btn-outline-danger', 'btn-outline-success', 'btn-outline-warning'];
+    var colors = ['#8064a2', '#5bc0de', 'black', '#d9534f', 'green'];
+    var buttons = ['btn-outline-dark', 'btn-outline-info', 'btn-outline-dark', 'btn-outline-danger', 'btn-outline-success'];
     var idx = Math.floor(Math.random() * colors.length);
     var col = colors[idx],
         btn = buttons[idx];

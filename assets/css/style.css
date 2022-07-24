@@ -1,1 +1,193 @@
-abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1 font: normal 75% Arial,Helvetica,sans-serif}html{-webkit-tap-highlight-color:transparent}body,html{width:100%;height:100%;background:#fff}canvas{display:block;vertical-align:bottom}#particles-js{width:100%;height:100%;background-color:#8064a2;background-size:cover;background-position:50% 50%;position:fixed}#particles-js.troll canvas{-webkit-animation:spinning 1.4s infinite;animation:spinning 1.4s infinite}#particles-js .particles-js-canvas-el{-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1);opacity:1;-webkit-animation:appear 1.4s 1;animation:appear 1.4s 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes appear{from{-ms-transform:scale(0);-webkit-transform:scale(0);transform:scale(0);opacity:0}to{-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes appear{from{-ms-transform:scale(0);-webkit-transform:scale(0);transform:scale(0);opacity:0}to{-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes spinning{from{-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}to{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinning{from{-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}to{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}p.copyright{position:absolute;width:100%;color:#fff;line-height:30px;font-size:.9em;text-align:center;bottom:0}
+/* abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+} */
+
+body {
+    line-height: 1;
+    font: normal 75% Arial, Helvetica, sans-serif
+}
+
+html {
+    -webkit-tap-highlight-color: transparent
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+canvas {
+    display: block;
+}
+
+#card {
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #8064a2;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+}
+
+#particles-js.troll canvas {
+    -webkit-animation: spinning 1.4s infinite;
+    animation: spinning 1.4s infinite;
+}
+
+#particles-js .particles-js-canvas-el {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-animation: appear 1.4s 1;
+    animation: appear 1.4s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes appear {
+    from {
+        -ms-transform: scale(0);
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0
+    }
+    to {
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes appear {
+    from {
+        -ms-transform: scale(0);
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0
+    }
+    to {
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes spinning {
+    from {
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spinning {
+    from {
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    font-size: .9em;
+    text-align: center;
+    bottom: 0
+}

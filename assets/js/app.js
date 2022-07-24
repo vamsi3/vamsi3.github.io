@@ -1,10 +1,10 @@
-particlesJS.load('particles-js', 'assets/particles.json', function() {});
+particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {});
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 $(document).ready(function() {
-    var colors = ['#8064a2', '#5bc0de', 'black', '#d9534f', 'green'];
-    var buttons = ['btn-outline-dark', 'btn-outline-info', 'btn-outline-dark', 'btn-outline-danger', 'btn-outline-success'];
+    var colors = ['#8064a2', '#121212', '#d9534f', 'green'];
+    var buttons = ['btn-outline-dark', 'btn-outline-dark', 'btn-outline-danger', 'btn-outline-success'];
     var idx = Math.floor(Math.random() * colors.length);
     var col = colors[idx],
         btn = buttons[idx];
